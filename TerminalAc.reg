@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+; Klasörde sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
+[HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere]
+@="Burada Terminal Aç"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere\command]
+@="powershell.exe -NoExit -Command \"Set-Location -LiteralPath '%V'\""
+
+; Klasör arka planında sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere]
+@="Burada Terminal Aç"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere\command]
+@="powershell.exe -NoExit -Command \"Set-Location -LiteralPath '%V'\""
+
+; Opsiyonel: Bu dosyada sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
+[HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere]
+@="Burada Terminal Aç"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere\command]
+@="powershell.exe -NoExit -Command \"Set-Location -LiteralPath '%V'\""
