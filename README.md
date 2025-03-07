@@ -1,50 +1,45 @@
-# 🖥️ Burada Terminal Aç - Windows Sağ Tıklama Menüsü Eklentisi
+# Burada Terminal Aç - Windows Sağ Tıklama Menüsü Eklentisi
 
-Bu araç, Windows sağ tıklama menüsüne "Burada Terminal Aç" özelliğini ekler. Linux sistemlerindeki benzer özelliğe alternatif olarak geliştirilmiştir ve **Windows 7, 8, 10 ve 11** sürümlerinde çalışmaktadır.
+Bu araç, Windows sağ tıklama menüsüne "Burada Terminal Aç" özelliğini ekler. Linux sistemlerindeki benzer özelliğe alternatif olarak geliştirilmiştir ve Windows 7, 8, 10 ve 11 sürümlerinde çalışmaktadır.
 
----
+## İçindekiler
+- [Kurulum](#kurulum)
+- [Kaldırma](#kaldırma)
+- [Nasıl Çalışır](#nasıl-çalışır)
+- [Özelleştirme](#özelleştirme)
+- [Sorun Giderme](#sorun-giderme)
 
-## 📝 İçindekiler
-- 🔧 [Kurulum](#kurulum)
-- 🗑️ [Kaldırma](#kaldırma)
-- ⚙️ [Nasıl Çalışır](#nasıl-çalışır)
-- 🎨 [Özelleştirme](#özelleştirme)
-- ⚠️ [Sorun Giderme](#sorun-giderme)
+## Kurulum 🛠️
 
----
+1. `TerminalAc.reg` dosyasına çift tıklayın
+2. Açılan güvenlik uyarısını onaylayın
+3. "Registry düzenleyicisi" uyarısında "Evet" seçeneğini tıklayın
+4. İşlem tamamlandığında "Registry düzenleyicisindeki bilgiler başarıyla eklendi" mesajını göreceksiniz
 
-## 🔧 Kurulum
-1. `TerminalAc.reg` dosyasına çift tıklayın 📄  
-2. Açılan güvenlik uyarısını onaylayın 🔒  
-3. "Registry düzenleyicisi" uyarısında **Evet** seçeneğini tıklayın ✅  
-4. İşlem tamamlandığında "Registry bilgileri başarıyla eklendi" mesajını göreceksiniz ✅  
+Kurulumdan sonra, aşağıdaki yerlerde sağ tıkladığınızda "Burada Terminal Aç" seçeneğini görebilirsiniz:
+- Herhangi bir klasöre sağ tıkladığınızda 📁
+- Klasör içinde boş bir alana sağ tıkladığınızda 🗂️
+- Herhangi bir sürücüye sağ tıkladığınızda 💾
 
-**Kurulum sonrası kullanım:**  
-- 📁 Herhangi bir klasöre sağ tıkladığınızda  
-- 🖼️ Klasörde boş alana sağ tıkladığınızda  
-- 💾 Sürücüye sağ tıkladığınızda  
-"Burada Terminal Aç" seçeneği görünür 🚀  
+## Kaldırma ❌
 
----
+1. `TerminalAcKaldir.reg` dosyasına çift tıklayın
+2. Açılan güvenlik uyarısını onaylayın
+3. "Registry düzenleyicisi" uyarısında "Evet" seçeneğini tıklayın
+4. İşlem tamamlandığında "Registry düzenleyicisindeki bilgiler başarıyla eklendi" mesajını göreceksiniz
 
-## 🗑️ Kaldırma
-1. `TerminalAcKaldir.reg` dosyasına çift tıklayın 📄  
-2. Güvenlik uyarısını onaylayın 🔒  
-3. "Registry düzenleyicisi" uyarısında **Evet** seçeneğini tıklayın ✅  
-4. Başarı mesajı alındığında işlem tamamlanır ✅  
+Kaldırma işleminden sonra, sağ tıklama menüsünden "Burada Terminal Aç" seçeneği tamamen kaldırılacaktır.
 
-**Sonuç:** Sağ tıklama menüsünden "Burada Terminal Aç" seçeneği kalıcı olarak kaldırılır ❌  
+## Nasıl Çalışır ⚙️
 
----
+Bu araç, Windows Kayıt Defteri'ne (Registry) aşağıdaki anahtarları ekler:
+- `HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere`
+- `HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere`
+- `HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere`
 
-## ⚙️ Nasıl Çalışır
-Windows Kayıt Defteri'ne aşağıdaki anahtarlar eklenir:  
-```plaintext
-HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere  
-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere  
-HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere
+Bu anahtarlar, sağ tıklama menüsüne "Burada Terminal Aç" seçeneğini ekler ve seçildiğinde PowerShell'i o konumda başlatır.
 
-## 🎨 Özelleştirme
+## Özelleştirme 🎨
 
 Varsayılan olarak, bu araç PowerShell'i açar. Command Prompt (cmd.exe) kullanmak isterseniz, `TerminalAc.reg` dosyasındaki:
 
@@ -58,7 +53,7 @@ satırını aşağıdaki ile değiştirin:
 @="cmd.exe /k \"cd /d %V\""
 ```
 
-##⚠️ Sorun Giderme
+## Sorun Giderme 🛡️
 
 **Sorun**: Registry düzenlemelerine izin verilmiyor
 
@@ -70,6 +65,4 @@ satırını aşağıdaki ile değiştirin:
 
 ---
 
-Bu araç, açık kaynak kodludur ve kişisel kullanım için ücretsizdir. Sorunları veya önerileri bildirmekten çekinmeyin.
-
-
+Bu araç, açık kaynak kodludur ve kişisel kullanım için ücretsizdir. Sorunları veya önerileri bildirmekten çekinmeyin. 😊
