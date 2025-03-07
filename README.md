@@ -1,4 +1,5 @@
-![Open Terminal Here](https://github.com/username/repository/raw/main/image.png](https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text.png))
+![alt text](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-YDFdCZxpKZCGc4HrnIs0I5Lal7LpMJKc8F3m0Q9uq2m12VcSbl6gG2s29rc1srpGNC9a1AqHfp5LzlKkhyphenhyphenFn57fv3Hq2KF6MJ4wSukvTgIDJviXsUBFGPpDg8MLVwvQ98cFs0vOh7e8i1u5ZB0GqydZhHw90cxR0a4TJuQR7okbiprtpwW4dQr_Snk/s2048/Gemini_Generated_Image_ukywh9ukywh9ukyw.jpeg)
+
 
 # Burada Terminal Aç - Windows Sağ Tıklama Menüsü Eklentisi
 
