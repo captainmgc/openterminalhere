@@ -44,4 +44,32 @@ HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere
 HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere  
 HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere
 
+## 🎨 Özelleştirme
+
+Varsayılan olarak, bu araç PowerShell'i açar. Command Prompt (cmd.exe) kullanmak isterseniz, `TerminalAc.reg` dosyasındaki:
+
+```
+@="powershell.exe -NoExit -Command \"Set-Location -LiteralPath '%V'\""
+```
+
+satırını aşağıdaki ile değiştirin:
+
+```
+@="cmd.exe /k \"cd /d %V\""
+```
+
+##⚠️ Sorun Giderme
+
+**Sorun**: Registry düzenlemelerine izin verilmiyor
+
+**Çözüm**: Dosyayı yönetici olarak çalıştırın. Bunun için dosyaya sağ tıklayın ve "Yönetici olarak çalıştır" seçeneğini seçin.
+
+**Sorun**: Kurulumdan sonra özellik çalışmıyor
+
+**Çözüm**: Windows'u yeniden başlatmayı deneyin. Sorun devam ederse, kayıt defteri anahtarlarının doğru eklenip eklenmediğini kontrol edin.
+
+---
+
+Bu araç, açık kaynak kodludur ve kişisel kullanım için ücretsizdir. Sorunları veya önerileri bildirmekten çekinmeyin.
+
 
