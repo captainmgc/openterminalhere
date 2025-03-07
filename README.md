@@ -13,7 +13,7 @@ Bu araç, Windows sağ tıklama menüsüne "Burada Terminal Aç" özelliğini ek
 - [Özelleştirme](#özelleştirme)
 - [Sorun Giderme](#sorun-giderme)
 
-## Kurulum 🛠️
+## Kurulum
 
 1. `TerminalAc.reg` dosyasına çift tıklayın
 2. Açılan güvenlik uyarısını onaylayın
@@ -25,7 +25,7 @@ Kurulumdan sonra, aşağıdaki yerlerde sağ tıkladığınızda "Burada Termina
 - Klasör içinde boş bir alana sağ tıkladığınızda 🗂️
 - Herhangi bir sürücüye sağ tıkladığınızda 💾
 
-## Kaldırma ❌
+## Kaldırma
 
 1. `TerminalAcKaldir.reg` dosyasına çift tıklayın
 2. Açılan güvenlik uyarısını onaylayın
@@ -34,7 +34,7 @@ Kurulumdan sonra, aşağıdaki yerlerde sağ tıkladığınızda "Burada Termina
 
 Kaldırma işleminden sonra, sağ tıklama menüsünden "Burada Terminal Aç" seçeneği tamamen kaldırılacaktır.
 
-## Nasıl Çalışır ⚙️
+## Nasıl Çalışır
 
 Bu araç, Windows Kayıt Defteri'ne (Registry) aşağıdaki anahtarları ekler:
 - `HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere`
@@ -43,7 +43,7 @@ Bu araç, Windows Kayıt Defteri'ne (Registry) aşağıdaki anahtarları ekler:
 
 Bu anahtarlar, sağ tıklama menüsüne "Burada Terminal Aç" seçeneğini ekler ve seçildiğinde PowerShell'i o konumda başlatır.
 
-## Özelleştirme 🎨
+## Özelleştirme
 
 Varsayılan olarak, bu araç PowerShell'i açar. Command Prompt (cmd.exe) kullanmak isterseniz, `TerminalAc.reg` dosyasındaki:
 
@@ -57,7 +57,7 @@ satırını aşağıdaki ile değiştirin:
 @="cmd.exe /k \"cd /d %V\""
 ```
 
-## Sorun Giderme 🛡️
+## Sorun Giderme
 
 **Sorun**: Registry düzenlemelerine izin verilmiyor
 
