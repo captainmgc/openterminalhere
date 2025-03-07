@@ -1,4 +1,5 @@
-![alt text](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-YDFdCZxpKZCGc4HrnIs0I5Lal7LpMJKc8F3m0Q9uq2m12VcSbl6gG2s29rc1srpGNC9a1AqHfp5LzlKkhyphenhyphenFn57fv3Hq2KF6MJ4wSukvTgIDJviXsUBFGPpDg8MLVwvQ98cFs0vOh7e8i1u5ZB0GqydZhHw90cxR0a4TJuQR7okbiprtpwW4dQr_Snk/s2048/Gemini_Generated_Image_ukywh9ukywh9ukyw.jpeg)
+![alt text](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDai-xYKhZTuIuyLpZ-hSiEy2sXob_h8TngA1mXA0TvJ2LfIAT9ynbs36yH6vyhwQo1IHL4Cq83e-nZgQF8lSJniZNSFfzP0kGH5Y_ia16MOTy7lgRdEUsssK7xD-mSZWSxVsoirONhVqkStmfTPfUEqU7jyUMWwc8UseS3H_tSRxQp5lUDziy3UC2JIY/s320/Gemini_Generated_Image_ukywh9ukywh9ukyw.jpeg)
+
 
 
 # Burada Terminal Aç - Windows Sağ Tıklama Menüsü Eklentisi
