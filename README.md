@@ -1,3 +1,4 @@
+<img src="[http://url/to/img.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn-YDFdCZxpKZCGc4HrnIs0I5Lal7LpMJKc8F3m0Q9uq2m12VcSbl6gG2s29rc1srpGNC9a1AqHfp5LzlKkhyphenhyphenFn57fv3Hq2KF6MJ4wSukvTgIDJviXsUBFGPpDg8MLVwvQ98cFs0vOh7e8i1u5ZB0GqydZhHw90cxR0a4TJuQR7okbiprtpwW4dQr_Snk/w400-h400/Gemini_Generated_Image_ukywh9ukywh9ukyw.jpeg)" alt="alt text" width="320" height="180">
 # Burada Terminal Aç - Windows Sağ Tıklama Menüsü Eklentisi
 
 Bu araç, Windows sağ tıklama menüsüne "Burada Terminal Aç" özelliğini ekler. Linux sistemlerindeki benzer özelliğe alternatif olarak geliştirilmiştir ve Windows 7, 8, 10 ve 11 sürümlerinde çalışmaktadır.
