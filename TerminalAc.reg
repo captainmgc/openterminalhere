@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 ; Klasörde sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
 [HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere]
-@="Burada Terminal Aç"
+@="Open Terminal Here"
 "Icon"="cmd.exe"
 
 [HKEY_CLASSES_ROOT\Directory\shell\OpenTerminalHere\command]
@@ -10,7 +10,7 @@ Windows Registry Editor Version 5.00
 
 ; Klasör arka planında sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
 [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere]
-@="Burada Terminal Aç"
+@="Open Terminal Here"
 "Icon"="cmd.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminalHere\command]
@@ -18,7 +18,7 @@ Windows Registry Editor Version 5.00
 
 ; Opsiyonel: Bu dosyada sağ tıkladığınızda "Burada Terminal Aç" seçeneği ekler
 [HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere]
-@="Burada Terminal Aç"
+@="Open Terminal Here"
 "Icon"="cmd.exe"
 
 [HKEY_CLASSES_ROOT\Drive\shell\OpenTerminalHere\command]
